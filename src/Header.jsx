@@ -1,39 +1,39 @@
 import Logo from "../src/logo";
 
-export default function Header() {
+export default function Head() {
   return (
-    <header>
-      <section>
+    <header className="container">
+      <section className="head">
         <Logo />
-        <ul>
-          <li>
+        <ul className="menu">
+          <li className="li-menu">
             <a>CHARACTERS</a>
           </li>
-          <li>
+          <li className="li-menu selected-menu">
             <a>COMICS</a>
           </li>
-          <li>
+          <li className="li-menu">
             <a>MOVIES</a>
           </li>
-          <li>
+          <li className="li-menu">
             <a>TV</a>
           </li>
-          <li>
+          <li className="li-menu">
             <a>GAMES</a>
           </li>
-          <li>
+          <li className="li-menu">
             <a>COLLECTIBLES</a>
           </li>
-          <li>
+          <li className="li-menu">
             <a>VIDEOS</a>
           </li>
-          <li>
+          <li className="li-menu">
             <a>FANS</a>
           </li>
-          <li>
+          <li className="li-menu">
             <a>NEWS</a>
           </li>
-          <li>
+          <li className="li-menu">
             <a>SHOP</a>
           </li>
         </ul>

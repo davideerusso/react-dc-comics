@@ -1,7 +1,9 @@
-export default function Body() {
+export default function Main() {
   return (
-    <body className="container">
-      <section></section>
-    </body>
+    <main className="back-color">
+      <section className="container main-content">
+        <h1>-- Content goes here--</h1>
+      </section>
+    </main>
   );
 }

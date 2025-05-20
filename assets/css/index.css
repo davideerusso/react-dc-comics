@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+img {
+  max-width: 100%;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  color: rgb(82, 81, 97);
+}
+ul {
+  list-style: none;
+}
+.container {
+  max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.head {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.menu {
+  display: inline-flex;
+  padding-left: 10px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 900;
+  color: rgb(82, 81, 97);
+}
+.li-menu {
+  margin-left: 24px;
+  margin-right: 24px;
+}
+.selected-menu {
+  color: rgb(2, 130, 250);
+  border-bottom: 5px solid;
+  padding-bottom: 60px;
+}
+.back-color {
+  background-color: rgb(28, 28, 28);
+}
+.main-content {
+  color: white;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  font-size: 24px;
+}
+.back-color-market {
+  background-color: rgb(2, 130, 250);
+}
+.market-content {
+  color: white;
+  display: flex;
+}
+
+.menu-market {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 10px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 100;
+  padding-top: 56px;
+  padding-bottom: 56px;
+}
+
+.icon-market {
+  height: 70px;
+}
+
+.limarket {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
