@@ -6,7 +6,7 @@ export default function Market() {
           <li className="li-market">
             <img
               className="icon-market"
-              src="../assets/img/buy-comics-digital-comics.png"
+              src="./src/assets/img/buy-comics-digital-comics.png"
               alt=""
             />
 
@@ -15,7 +15,7 @@ export default function Market() {
           <li className="li-market">
             <img
               className="icon-market"
-              src="../assets/img/buy-comics-merchandise.png"
+              src="./src/assets/img/buy-comics-merchandise.png"
               alt=""
             />
             <a>DC MERCHANDISE</a>
@@ -23,7 +23,7 @@ export default function Market() {
           <li className="li-market">
             <img
               className="icon-market"
-              src="../assets/img/buy-comics-subscriptions.png"
+              src="./src/assets/img/buy-comics-subscriptions.png"
               alt=""
             />
             <a>SUBSCRIPTION</a>
@@ -31,7 +31,7 @@ export default function Market() {
           <li className="li-market">
             <img
               className="icon-market"
-              src="../assets/img/buy-comics-shop-locator.png"
+              src="./src/assets/img/buy-comics-shop-locator.png"
               alt=""
             />
             <a>COMIC SHOP LOCATOR</a>
@@ -39,7 +39,7 @@ export default function Market() {
           <li className="li-market">
             <img
               className="icon-market-visa"
-              src="../assets/img/buy-dc-power-visa.svg"
+              src="./src/assets/img/buy-dc-power-visa.svg"
               alt=""
             />
             <a>DC POWER VISA</a>
