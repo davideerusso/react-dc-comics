@@ -128,3 +128,23 @@ ul {
   background-repeat: no-repeat;
   background-size: 550px;
 }
+.alert-space {
+  padding-top: 20px;
+  width: 20%;
+  text-align: center;
+}
+.alert {
+  padding: 16px 24px;
+
+  border-radius: 25px;
+}
+.alert.alert-danger {
+  color: red;
+  border: 1px solid red;
+  background-color: rgb(47, 16, 16);
+}
+.alert.alert-success {
+  color: rgb(59, 108, 255);
+  border: 1px solid rgb(59, 108, 255);
+  background-color: rgb(22, 31, 56);
+}
