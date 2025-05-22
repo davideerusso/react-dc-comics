@@ -1,4 +1,4 @@
-import Logo from "../src/logo";
+import Logo from "./logo";
 
 export default function Head() {
   return (

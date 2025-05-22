@@ -45,6 +45,13 @@ ul {
   padding-bottom: 50px;
   padding-top: 50px;
 }
+.image-back {
+  background-position: center top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 540px;
+  background-image: url(./src/assets/img/jumbotron.jpg);
+}
 .selected-menu {
   color: rgb(2, 130, 250);
   border-bottom: 5px solid;
@@ -147,4 +154,17 @@ ul {
   color: rgb(59, 108, 255);
   border: 1px solid rgb(59, 108, 255);
   background-color: rgb(22, 31, 56);
+}
+.comics-flex {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 40px;
+}
+.card-6 {
+  width: 16%;
+  padding: 10px;
+}
+
+.comics-image {
+  clip-path: inset(0% 0% 33% 0%);
 }

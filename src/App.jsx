@@ -1,13 +1,16 @@
-import Head from "../src/Header";
-import Body from "../src/Body";
-import Footer from "../src/Footer";
-import Market from "../src/Market";
+import Head from "./components/Header";
+import Main from "./components/Main";
+import Footer from "./components/Footer";
+import Market from "./components/Market";
 
-export default function app() {
+import comics from "./assets/comics";
+
+export default function App() {
   return (
     <>
       <Head />
-      <Body />
+      <Main comics={comics} />
+
       <Market />
       <Footer />
     </>
